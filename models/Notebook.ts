@@ -6,8 +6,12 @@ export class Notebook {
   private author: Author;
   private notes: Note[] = [];
 
-  constructor() {
-    this.id = String(new Date());
+  public getId(): String {
+    return this.id;
+  }
+
+  public setId(id: String): void {
+    this.id = id;
   }
 
   public getAuthor(): Author {
@@ -26,7 +30,7 @@ export class Notebook {
     return this.notes;
   }
 
-  public filterByCategory(category: String): Note[] | null {
+  public filterNotesByCategory(category: String): Note[] | null {
     return this.notes.filter((note) => note.getCategory() === category);
   }
 }

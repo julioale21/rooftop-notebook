@@ -4,8 +4,12 @@ export class Note {
   private description: String;
   private category: String;
 
-  constructor() {
-    this.id = String(new Date());
+  public getId(): String {
+    return this.id;
+  }
+
+  public setId(id: String): void {
+    this.id = id;
   }
 
   public getTitle(): String {

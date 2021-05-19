@@ -5,8 +5,12 @@ export class Author {
   private age: Number;
   private nacionality: String;
 
-  constructor() {
-    this.id = String(new Date());
+  public getId(): String {
+    return this.id;
+  }
+
+  public setId(id: String): void {
+    this.id = id;
   }
 
   public getFirstName(): String {
