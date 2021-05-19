@@ -6,4 +6,20 @@ export class Note {
   constructor() {
     this.id = String(new Date());
   }
+
+  public getTitle(): String {
+    return this.title;
+  }
+
+  public setTitle(title: String): void {
+      this.title = title;
+  }
+
+  public getDescription(): String {
+      return this.description;
+  }
+
+  public setDescription(description: String): void {
+      this.description = description;
+  }
 }

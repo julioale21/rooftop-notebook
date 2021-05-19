@@ -1,0 +1,19 @@
+{
+  "name": "exercise-01-notebook",
+  "version": "1.0.0",
+  "description": "A simple notebook with typescript\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julioale21/rooftop-notebook.git"
+  },
+  "author": "Julio Romero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/julioale21/rooftop-notebook/issues"
+  },
+  "homepage": "https://github.com/julioale21/rooftop-notebook#readme"
+}
