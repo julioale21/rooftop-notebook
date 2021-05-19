@@ -2,6 +2,7 @@ export class Note {
   private id: String;
   private title: String;
   private description: String;
+  private category: String;
 
   constructor() {
     this.id = String(new Date());
@@ -21,5 +22,13 @@ export class Note {
 
   public setDescription(description: String): void {
     this.description = description;
+  }
+
+  public getCategory(): String {
+    return this.category;
+  }
+
+  public setCategory(category: String): void {
+    this.category = category;
   }
 }
