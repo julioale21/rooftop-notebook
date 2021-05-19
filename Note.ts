@@ -12,14 +12,14 @@ export class Note {
   }
 
   public setTitle(title: String): void {
-      this.title = title;
+    this.title = title;
   }
 
   public getDescription(): String {
-      return this.description;
+    return this.description;
   }
 
   public setDescription(description: String): void {
-      this.description = description;
+    this.description = description;
   }
 }

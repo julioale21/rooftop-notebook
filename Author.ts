@@ -10,34 +10,34 @@ export class Author {
   }
 
   public getFirstName(): String {
-      return this.firstName;
+    return this.firstName;
   }
 
   public setFirstName(firstName: String): void {
-      this.firstName = firstName;
+    this.firstName = firstName;
   }
 
   public getLastName(): String {
-      return this.lastName;
+    return this.lastName;
   }
 
   public setLastName(lastName: String): void {
-      this.lastName = lastName;
+    this.lastName = lastName;
   }
 
   public getAge(): Number {
-      return this.age;
+    return this.age;
   }
 
   public setAge(age: Number): void {
-      this.age = age;
+    this.age = age;
   }
 
   public getNacionality(): String {
-      return this.nacionality;
+    return this.nacionality;
   }
 
   public setNacionality(nacionality: String): void {
-      this.nacionality = nacionality;
+    this.nacionality = nacionality;
   }
 }
