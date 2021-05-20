@@ -25,8 +25,7 @@ Los archivos estan estructurados de la siguiente manera:
         ├── Author.ts        
         ├── Note.ts       
         ├── Notebook.ts  
-    ├── models
-
+    ├── docs
     ├── index.ts
     └── README.md         
 
