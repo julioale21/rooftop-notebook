@@ -18,7 +18,7 @@ Debe tener al menos un metodo que filtre todas las notas por algun atributo (a e
 ### Herramientas
 Typescript
 
-### Estructura del proyecxto
+### Estructura del proyecto
 Los archivos estan estructurados de la siguiente manera:
 
     ├── models
