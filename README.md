@@ -14,7 +14,7 @@ Crear un modelo para “Libreta de Notas”
 Debe tener al menos un metodo que filtre todas las notas por algun atributo (a eleccion)
 
 
-## Projecto
+## Proyecto
 ### Herramientas
 Typescript
 
